@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+  font-family: "cocogoose";
+  src: url("fonts/cocogoose/cocogoose_pro_light-trial-webfont.woff2")
+      format("woff2"),
+    url("fonts/cocogoose/cocogoose_pro_light-trial-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "cocogoose";
+  src: url("fonts/cocogoose/cocogoose_pro_semilight-trial-webfont.woff2")
+      format("woff2"),
+    url("fonts/cocogoose/cocogoose_pro_semilight-trial-webfont.woff")
+      format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "cocogoose";
+  src: url("fonts/cocogoose/cocogoose_pro-trial-webfont.woff2") format("woff2"),
+    url("fonts/cocogoose/cocogoose_pro-trial-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+:root {
+  --color-primary: #272a31;
+  --color-secondary: #ec5242;
+  --color-accent: #d3d3d3;
+  --font-headings: "cocogoose";
+  --alternate-font: "Spartan", sans-serif;
+  --white: #fff;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Lato, sans-serif;
+}
+
+.page-heading {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: var(--color-primary);
+  height: 30px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 30;
+  padding-right: 15rem;
+}
+
+.fa-facebook-f,
+.fa-twitter {
+  color: var(--white);
+  font-size: 1.4rem;
+  padding-right: 1.5rem;
+}
+
+.heading-label {
+  color: var(--white);
+  padding-right: 1.5rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--white);
+  position: fixed;
+  top: 3rem;
+  height: 60px;
+  width: 100%;
+  z-index: 30;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.logo-img {
+  height: 46px;
+  width: 110px;
+  object-fit: contain;
+  margin-top: 0.5rem;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  padding-right: 4rem;
+  font-size: 1.2rem;
+  color: var(--color-primary);
+  transition: all 0.5s;
+}
+
+.nav-items li a:hover {
+  color: var(--color-secondary);
+}
+
+.btn {
+  border: 4px solid var(--color-secondary);
+  color: var(--color-secondary);
+  background: transparent;
+  padding: 0.7rem 1rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.fa-times,
+.fa-bars {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .page-heading {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: flex-start;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    margin-top: 0;
+    box-shadow: none;
+  }
+
+  .logo-img {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    background: #ec5342ec;
+    height: 100vh;
+    width: 200px;
+    left: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+
+  .nav-items {
+    flex-direction: column;
+    padding-top: 5rem;
+    line-height: 5rem;
+    letter-spacing: 1.5px;
+  }
+
+  .nav-items li a {
+    font-size: 2rem;
+    color: rgb(225, 225, 225);
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    color: rgb(225, 225, 225);
+    border: 2px solid rgb(225, 225, 225);
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+  }
+
+  .fa-times {
+    display: block;
+    color: var(--color-primary);
+    position: absolute;
+    left: 1rem;
+    font-size: 2rem;
+    margin: 1.2rem;
+  }
+
+  .fa-bars {
+    display: block;
+    color: var(--color-primary);
+    font-size: 3rem;
+    position: absolute;
+    left: 2.3rem;
+  }
+}
