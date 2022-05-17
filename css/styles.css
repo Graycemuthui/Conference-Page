@@ -52,6 +52,8 @@ body {
   font-family: Lato, sans-serif;
 }
 
+/* Heaer Section */
+
 .page-heading {
   display: flex;
   justify-content: flex-end;
@@ -127,6 +129,12 @@ body {
   padding: 0.7rem 1rem;
   outline: none;
   cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #272a31;
+  color: #ebc934;
 }
 
 .fa-times,
@@ -134,6 +142,149 @@ body {
   display: none;
 }
 
+/* Headline-section */
+
+.main-section {
+  margin: 0 0.3rem;
+  font-family: var(--alternate-font);
+  background: rgba(5, 0, 2, 0.216);
+  background: url("../images/desktop.png");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size: 150%;
+  display: flex;
+  justify-content: center;
+}
+
+.headline-section {
+  margin-left: 5rem;
+  margin-top: 10rem;
+}
+
+.text {
+  font-size: 3rem;
+  letter-spacing: 0.02rem;
+  margin-left: -2px;
+  color: var(--color-secondary);
+}
+
+.main-heading {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #ec240d;
+  margin-top: 2rem;
+}
+
+.headline-text {
+  margin-top: 6rem;
+}
+
+.headline-para {
+  font-size: 1rem;
+  margin: 2rem 0;
+  color: var(--color-primary);
+}
+
+.headline-details {
+  margin-top: 3rem;
+  color: var(--color-primary);
+}
+
+.headline-date {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-top: 3rem;
+}
+
+/* Main-Program */
+.main-program {
+  background: url("../images/program.svg"), #272a32;
+  height: 60vh;
+  width: 100%;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.program-labels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.program-items {
+  background: #404144b4;
+  width: 120px;
+  height: 130px;
+  margin-top: 4rem;
+  margin-right: 0.3rem;
+}
+
+.program-heading {
+  text-align: center;
+  color: var(--white);
+  margin-top: 3rem;
+}
+
+.fa-artstation,
+.fa-wpforms,
+.fa-house-laptop,
+.fa-chalkboard-user {
+  font-size: 2.5rem;
+  color: var(--white);
+  margin-top: 2rem;
+}
+
+.tag {
+  color: #ec240d;
+  font-size: 1rem;
+  font-family: var(--font-headings);
+  margin-top: 0.5rem;
+}
+
+.description {
+  color: var(--white);
+}
+
+.program-heading2 {
+  color: var(--white);
+  text-decoration: underline;
+  text-decoration-color: var(--white);
+}
+
+.program-btn {
+  display: none;
+}
+
+hr {
+  width: 30px;
+  margin-left: 57rem;
+  margin-top: 1.5rem;
+  border: 1px solid #ec240d;
+}
+
+/* Speakers Section */
+
+.speakers-section {
+  display: grid;
+}
+
+.speaker-img {
+  height: 70px;
+  width: 70px;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.speaker-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+/* Mobile-Version */
 @media screen and (max-width: 768px) {
   .page-heading {
     display: none;
@@ -181,6 +332,10 @@ body {
     color: rgb(225, 225, 225);
   }
 
+  .nav-items li a:hover {
+    color: #ebc934;
+  }
+
   .btn {
     display: flex;
     justify-content: center;
@@ -206,5 +361,76 @@ body {
     font-size: 3rem;
     position: absolute;
     left: 2.3rem;
+  }
+
+  /* Headline-section */
+  .main-section {
+    margin: 0.1rem 0;
+    height: 90vh;
+    background-image: url(../images/mobile.png);
+  }
+
+  .text {
+    margin-bottom: 4rem;
+  }
+
+  /* Main -program */
+  .main-program {
+    height: 110vh;
+  }
+
+  .program-labels {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 3rem;
+  }
+
+  .program-items {
+    width: 98%;
+    height: 80px;
+    margin: 0.2rem;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  .fa-artstation,
+  .fa-wpforms,
+  .fa-house-laptop,
+  .fa-chalkboard-user {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2rem;
+  }
+
+  .tag {
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+
+  .description {
+    margin: 2rem 2rem;
+  }
+
+  .program-heading2 {
+    display: none;
+  }
+
+  .program-btn {
+    display: block;
+    color: var(--white);
+    background-color: #ed2b15ec;
+    padding: 0.8rem 0.3rem;
+    outline: none;
+    margin-left: 10rem;
+    border: 1px solid #ec5342ec;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .program-btn:hover {
+    background-color: #272a31;
+    color: #ebc934;
   }
 }
