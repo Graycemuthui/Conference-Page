@@ -135,21 +135,12 @@ body {
   color: #ebc934;
 }
 
-.close-icon {
+.fa-times {
   display: none;
-  color: var(--color-primary);
-  position: absolute;
-  left: 1rem;
-  font-size: 2rem;
-  margin: 1.2rem;
 }
 
-.bars {
+.fa-bars {
   display: none;
-  color: var(--color-primary);
-  font-size: 3rem;
-  position: absolute;
-  left: 2.3rem;
 }
 
 /* Headline-Section */
@@ -300,6 +291,11 @@ hr {
   color: var(--color-accent);
 }
 
+.copyright-img {
+  width: 20px;
+  height: 20px;
+}
+
 /* Mobile-Version */
 @media screen and (max-width: 768px) {
   .page-heading {
@@ -362,7 +358,7 @@ hr {
     margin-top: 1.5rem;
   }
 
-  .close-icon {
+  .fa-times {
     display: block;
     color: var(--color-primary);
     position: absolute;
@@ -371,7 +367,7 @@ hr {
     margin: 1.2rem;
   }
 
-  .bars {
+  .fa-bars {
     display: block;
     color: var(--color-primary);
     font-size: 3rem;
