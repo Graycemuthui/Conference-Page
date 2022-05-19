@@ -1,6 +1,6 @@
-# Hello Micoverse
+## SawaSawa Fashion Week.
 
-- This is a website for an event known as SawaSawa Fashion Week
+- This is a website for SawaSawa Fashion Week.
 
 ## Built With
 
