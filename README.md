@@ -41,9 +41,9 @@
 
 ## Acknowledgements
 
-- Original design by [Cindy Shin] in [Behance].
-- London background by [Elena De Soto] in [Unsplash]
-- Ethipia background by [Jakod Dalbjorn] in [Unsplash]
+- Original design by Cindy Shin in Behance.
+- London background by Elena De Sotoin in Unsplash
+- Ethipia background by Jakod Dalbjorn in Unsplash
 
 ## 📝 License
 
