@@ -137,17 +137,27 @@ body {
   color: #ebc934;
 }
 
-.fa-times,
-.fa-bars {
+.close-icon {
   display: none;
+  color: var(--color-primary);
+  position: absolute;
+  left: 1rem;
+  font-size: 2rem;
+  margin: 1.2rem;
+}
+
+.bars {
+  display: none;
+  color: var(--color-primary);
+  font-size: 3rem;
+  position: absolute;
+  left: 2.3rem;
 }
 
 /* Headline-section */
-
 .main-section {
   margin: 0 0.3rem;
   font-family: var(--alternate-font);
-  background: rgba(5, 0, 2, 0.216);
   background: url("../images/desktop.png");
   height: 100vh;
   width: 100%;
@@ -204,6 +214,7 @@ body {
   width: 100%;
   text-align: center;
   padding: 3rem 0;
+  height: 70vh;
 }
 
 .program-labels {
@@ -232,6 +243,7 @@ body {
 .fa-chalkboard-user {
   font-size: 2.5rem;
   color: var(--white);
+  margin-top: 2rem;
 }
 
 .tag {
@@ -423,7 +435,7 @@ hr {
     margin-top: 1.5rem;
   }
 
-  .fa-times {
+  .close-icon {
     display: block;
     color: var(--color-primary);
     position: absolute;
@@ -432,7 +444,7 @@ hr {
     margin: 1.2rem;
   }
 
-  .fa-bars {
+  .bars {
     display: block;
     color: var(--color-primary);
     font-size: 3rem;
@@ -443,17 +455,17 @@ hr {
   /* Headline-section */
   .main-section {
     margin: 0.1rem 0;
-    height: 70vh;
+    height: 80vh;
     background-image: url(../images/mobile.png);
   }
 
   .text {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 
   /* Main -program */
   .main-program {
-    height: 120vh;
+    height: 130vh;
   }
 
   .program-labels {
@@ -469,8 +481,8 @@ hr {
     gap: 4rem;
     align-items: center;
     padding-left: 2rem;
-    width: 98%;
-    height: 90px;
+    width: 99%;
+    height: 99px;
   }
 
   .description {
@@ -501,6 +513,13 @@ hr {
     display: flex;
     flex-direction: column;
   }
-}
 
-/* Sponsors */
+  /* Sponsors */
+  .sponsors {
+    display: none;
+  }
+
+  .footer-section {
+    display: none;
+  }
+}
