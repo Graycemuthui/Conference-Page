@@ -135,11 +135,8 @@ body {
   color: #ebc934;
 }
 
-.fa-times {
-  display: none;
-}
-
-.fa-bars {
+i#openBtn,
+i#closeBtn {
   display: none;
 }
 
@@ -356,6 +353,11 @@ hr {
     padding: 1rem 2rem;
     font-size: 1.4rem;
     margin-top: 1.5rem;
+  }
+
+  i#openBtn,
+  i#closeBtn {
+    display: block;
   }
 
   .fa-times {
