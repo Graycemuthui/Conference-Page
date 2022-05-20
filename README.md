@@ -50,7 +50,7 @@
 
 ## Acknowledgements
 
-- Original design by Cindy Shin in Behance.
+- Original design by Cindy Shin in [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 - London background by Elena De Sotoin in [Unsplash](elena-de-soto-w423NnHFjFg-unsplash.jpg)
 - Ethiopia background by Jakod Dalbjorn in [Unsplash](https://unsplash.com/photos/cuKJre3nyYc)
 
