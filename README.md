@@ -1,6 +1,15 @@
+## Screenshot of the project
+
+![screenshot2](https://user-images.githubusercontent.com/95374858/169492793-19a4f4ca-a9a1-449e-893f-8b1680995234.png)
+![screenshot1](https://user-images.githubusercontent.com/95374858/169492878-f272f7e2-4a1f-4c3a-a957-3f6eb3354e69.png)
+
 ## SawaSawa Fashion Week.
 
 - This is a website for SawaSawa Fashion Week that entails the program of the days it will be held.
+
+## Link to loom video
+
+- To view a viedo with a decsription of the project you can click on this [link](https://www.loom.com/share/659ff5638a944135be6feddb0f400ee7).
 
 ## Built With
 
