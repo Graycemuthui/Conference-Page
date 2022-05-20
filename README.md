@@ -36,7 +36,7 @@
 
 ## Deployment
 
-- To view a live demo of the project you can click on this [link](https://graycemuthui.github.io/Conference-Page/).
+- To view a live demo of the project you can click on this [link](https://admirable-cendol-446843.netlify.app).
 
 ## 🤝 Contributing
 
