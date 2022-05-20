@@ -1,6 +1,6 @@
 ## SawaSawa Fashion Week.
 
-- This is a website for SawaSawa Fashion Week.
+- This is a website for SawaSawa Fashion Week that entails the program of the days it will be held.
 
 ## Built With
 
@@ -42,8 +42,8 @@
 ## Acknowledgements
 
 - Original design by Cindy Shin in Behance.
-- London background by Elena De Sotoin in Unsplash
-- Ethipia background by Jakod Dalbjorn in Unsplash
+- London background by Elena De Sotoin in [Unsplash](elena-de-soto-w423NnHFjFg-unsplash.jpg)
+- Ethiopia background by Jakod Dalbjorn in [Unsplash](https://unsplash.com/photos/cuKJre3nyYc)
 
 ## 📝 License
 
