@@ -373,7 +373,7 @@ hr {
 
   /* Headline-section */
   .main-header {
-    height: 70vh;
+    height: 90vh;
     background-image: url(../images/mobile.png);
   }
 
@@ -381,9 +381,8 @@ hr {
     display: block;
     font-size: 1.5rem;
     letter-spacing: 0.02rem;
-    margin-left: -2px;
+    margin: 60px -2px;
     color: var(--color-secondary);
-    margin-top: 6rem;
   }
 
   .logo-section {
@@ -416,9 +415,5 @@ hr {
     justify-content: center;
     align-items: center;
     gap: 0.2rem;
-  }
-
-  .main-header {
-    height: 90vh;
   }
 }
