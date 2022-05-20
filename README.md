@@ -1,7 +1,11 @@
 ## Screenshot of the project
 
+<!--
 ![screenshot2](https://user-images.githubusercontent.com/95374858/169492793-19a4f4ca-a9a1-449e-893f-8b1680995234.png)
-![screenshot1](https://user-images.githubusercontent.com/95374858/169492878-f272f7e2-4a1f-4c3a-a957-3f6eb3354e69.png)
+![screenshot1](https://user-images.githubusercontent.com/95374858/169492878-f272f7e2-4a1f-4c3a-a957-3f6eb3354e69.png) -->
+
+<img src="/images/screenshot1.png">
+<img src="/images/screenshot2.png">
 
 ## SawaSawa Fashion Week.
 
