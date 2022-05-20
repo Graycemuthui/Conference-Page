@@ -2,9 +2,8 @@
 
 @font-face {
   font-family: "cocogoose";
-  src:
-    url("fonts/cocogoose/cocogoose_pro_light-trial-webfont.woff2")
-    format("woff2"),
+  src: url("fonts/cocogoose/cocogoose_pro_light-trial-webfont.woff2")
+      format("woff2"),
     url("fonts/cocogoose/cocogoose_pro_light-trial-webfont.woff") format("woff");
   font-weight: 300;
   font-style: normal;
@@ -12,19 +11,17 @@
 
 @font-face {
   font-family: "cocogoose";
-  src:
-    url("fonts/cocogoose/cocogoose_pro_semilight-trial-webfont.woff2")
-    format("woff2"),
+  src: url("fonts/cocogoose/cocogoose_pro_semilight-trial-webfont.woff2")
+      format("woff2"),
     url("fonts/cocogoose/cocogoose_pro_semilight-trial-webfont.woff")
-    format("woff");
+      format("woff");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "cocogoose";
-  src:
-    url("fonts/cocogoose/cocogoose_pro-trial-webfont.woff2") format("woff2"),
+  src: url("fonts/cocogoose/cocogoose_pro-trial-webfont.woff2") format("woff2"),
     url("fonts/cocogoose/cocogoose_pro-trial-webfont.woff") format("woff");
   font-weight: 700;
   font-style: normal;
@@ -187,7 +184,7 @@ i#closeBtn {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
-.logo-section {
+.logo-heading {
   font-size: 2rem;
 }
 
@@ -389,6 +386,10 @@ hr {
     margin-top: 6rem;
   }
 
+  .logo-section {
+    margin-top: 0.3rem 0;
+  }
+
   .about-header {
     font-size: 2.5rem;
     font-weight: 800;
@@ -415,5 +416,9 @@ hr {
     justify-content: center;
     align-items: center;
     gap: 0.2rem;
+  }
+
+  .main-header {
+    height: 90vh;
   }
 }
