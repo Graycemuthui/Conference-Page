@@ -24,7 +24,8 @@
 
 ### Setup
 
-- Using git, clone the code to your machine or download a Zip File.
+- Here is the link to the repo `https://github.com/Graycemuthui/Conference-Page`
+- To clone this repo use git clone (insert repo here)
 
 ## Authors
 
