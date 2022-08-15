@@ -1,7 +1,6 @@
 ## SawaSawa Fashion Week.
 
-- This is a website for SawaSawa Fashion Week that entails the program of the days it will be held.
-
+- This is a website for SawaSawa Fashion Week that entails the program of the days it will be held. It also shows previous events that have happened in different countries. This helped me cement my understanding in github, githubflows, version control and to demonstrate the ability to submit a project for code review.
 ## Screenshot of the project
 
 <img src="/images/screenshot2.png">
