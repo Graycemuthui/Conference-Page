@@ -89,4 +89,4 @@ See the [open issues](#) for a full list of proposed features (and known issues)
 
 ## 📝 License
 
-- This project is [MIT](./MIT.md) licensed.
+- This project is [MIT](https://github.com/Graycemuthui/Conference-Page/blob/main/LICENSE.md) licensed.
