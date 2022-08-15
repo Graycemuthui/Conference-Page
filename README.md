@@ -49,11 +49,11 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo by running the command
    ```sh
-    git clone https://github.com/frank1738/Module1-capstone-project
+    git clone https://github.com/Graycemuthui/Conference-Page.git
    ```
 2. Open the directory of the project
    ```sh
-   cd Module1-capstone-project.git
+   cd Conference Page.git
    ```
 3. Open the html file
    ```sh
